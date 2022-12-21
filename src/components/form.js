@@ -1,14 +1,17 @@
 //implement the styled-components logic here.
 import React from "react";
 
-import Card from "./Card";
+import Button from "./Button";
+import Input from "./Input";
 
-function ForM() {
+function Form() {
   return (
-    <div>
-      <Card />
-    </div>
+    <form>
+      <Input type={"email"} name={"email"} placeholder={"Email"} />
+      <Input type={"password"} name={"pass"} placeholder={"Password"} />
+      <Button type={"submit"} txt="Send" />
+    </form>
   );
 }
 
-export default ForM;
+export default Form;

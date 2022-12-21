@@ -1,6 +1,6 @@
 import React from "react";
 
-import Form from "./_Form";
+import Form from "./Form";
 
 function Card() {
   return (

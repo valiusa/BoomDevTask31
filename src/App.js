@@ -1,6 +1,6 @@
 import React from "react";
 
-import ForM from "./components/form";
+import LoginForm from "./components/LoginForm";
 
 import "./App.css";
 
@@ -14,7 +14,7 @@ function App() {
         </div>
       </section>
       <div class="container is-fullhd">
-        <ForM />
+        <LoginForm />
       </div>
     </div>
   );
