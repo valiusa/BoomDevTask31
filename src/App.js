@@ -1,3 +1,7 @@
+import React from "react";
+
+import ForM from "./components/form";
+
 import "./App.css";
 
 function App() {
@@ -10,9 +14,7 @@ function App() {
         </div>
       </section>
       <div class="container is-fullhd">
-        <div class="notification">
-          Edit the <code>./src</code> folder to add components.
-        </div>
+        <ForM />
       </div>
     </div>
   );
